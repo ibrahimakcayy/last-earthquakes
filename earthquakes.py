@@ -71,7 +71,7 @@ try:
 
 
     z="["+z[1::]+"]"
-    f = open("demofile1.json", "w")
+    f = open("demofile.json", "w")
     f.write(z)
     f.close()
     print("done")
